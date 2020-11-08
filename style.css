@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    
+}
+
+#ttt-board {
+    display: grid;
+    max-width: 500px;
+    margin: 0 auto;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 5px;
+}
+
+#ttt-board div {
+    font-size: 3em;
+    text-align:center;
+    background:#eee;
+    padding: 50px;
+}
