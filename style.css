@@ -1,19 +1,21 @@
 body {
-    text-align: center;
-    
+    text-align: center;    
 }
 
-#ttt-board {
-    display: grid;
-    max-width: 500px;
-    margin: 0 auto;
-    grid-template-columns: 33% 33% 33%;
-    grid-gap: 5px;
+.game-container {
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: 50px auto;
 }
 
-#ttt-board div {
-    font-size: 3em;
-    text-align:center;
-    background:#eee;
-    padding: 50px;
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
 }
